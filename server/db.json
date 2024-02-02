@@ -1,0 +1,60 @@
+{
+    "musics": [
+        {
+            "id": 1,
+            "img": "https://imgs.search.brave.com/mDxbxTFzeS7StZgvyJxBTZS90q957IWAWn-dXHJhLAA/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMud2lraWEubm9j/b29raWUubmV0L21l/dGFsbGljYS9pbWFn/ZXMvOC84Zi8lRTIl/ODAlQTZhbmRfSnVz/dGljZV9mb3JfQWxs/XyhhbGJ1bSkuanBn/L3JldmlzaW9uL2xh/dGVzdC9zY2FsZS10/by13aWR0aC1kb3du/LzI1MD9jYj0yMDEy/MDYwNTA3MjEyOQ",
+            "title": "One",
+            "artist": "Metallica",
+            "category": "rock"
+        },
+        {
+            "id": 2,
+            "img": "https://imgs.search.brave.com/bCRohoAWB4rWTFclmkp-AJzfcOeHRj0eaIgV8XTvN80/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pMS5z/bmRjZG4uY29tL2Fy/dHdvcmtzLTAwMDA2/ODc4NDM1OS1qaTQ5/dTQtdDUwMHg1MDAu/anBn",
+            "title": "Switch child of mine",
+            "artist": "Guns and Roses",
+            "category": "rock"
+        },
+        {
+            "id": 3,
+            "img": "https://imgs.search.brave.com/mDxbxTFzeS7StZgvyJxBTZS90q957IWAWn-dXHJhLAA/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMud2lraWEubm9j/b29raWUubmV0L21l/dGFsbGljYS9pbWFn/ZXMvOC84Zi8lRTIl/ODAlQTZhbmRfSnVz/dGljZV9mb3JfQWxs/XyhhbGJ1bSkuanBn/L3JldmlzaW9uL2xh/dGVzdC9zY2FsZS10/by13aWR0aC1kb3du/LzI1MD9jYj0yMDEy/MDYwNTA3MjEyOQ",
+            "title": "One",
+            "artist": "Metallica",
+            "category": "rock"
+        },
+        {
+            "id": 4,
+            "img": "https://imgs.search.brave.com/mDxbxTFzeS7StZgvyJxBTZS90q957IWAWn-dXHJhLAA/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMud2lraWEubm9j/b29raWUubmV0L21l/dGFsbGljYS9pbWFn/ZXMvOC84Zi8lRTIl/ODAlQTZhbmRfSnVz/dGljZV9mb3JfQWxs/XyhhbGJ1bSkuanBn/L3JldmlzaW9uL2xh/dGVzdC9zY2FsZS10/by13aWR0aC1kb3du/LzI1MD9jYj0yMDEy/MDYwNTA3MjEyOQ",
+            "title": "One",
+            "artist": "Metallica",
+            "category": "rock"
+        },
+        {
+            "id": 5,
+            "img": "https://imgs.search.brave.com/mDxbxTFzeS7StZgvyJxBTZS90q957IWAWn-dXHJhLAA/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMud2lraWEubm9j/b29raWUubmV0L21l/dGFsbGljYS9pbWFn/ZXMvOC84Zi8lRTIl/ODAlQTZhbmRfSnVz/dGljZV9mb3JfQWxs/XyhhbGJ1bSkuanBn/L3JldmlzaW9uL2xh/dGVzdC9zY2FsZS10/by13aWR0aC1kb3du/LzI1MD9jYj0yMDEy/MDYwNTA3MjEyOQ",
+            "title": "One",
+            "artist": "Metallica",
+            "category": "rock"
+        },
+        {
+            "id": 6,
+            "img": "https://imgs.search.brave.com/mDxbxTFzeS7StZgvyJxBTZS90q957IWAWn-dXHJhLAA/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMud2lraWEubm9j/b29raWUubmV0L21l/dGFsbGljYS9pbWFn/ZXMvOC84Zi8lRTIl/ODAlQTZhbmRfSnVz/dGljZV9mb3JfQWxs/XyhhbGJ1bSkuanBn/L3JldmlzaW9uL2xh/dGVzdC9zY2FsZS10/by13aWR0aC1kb3du/LzI1MD9jYj0yMDEy/MDYwNTA3MjEyOQ",
+            "title": "One",
+            "artist": "Metallica",
+            "category": "rock"
+        },
+        {
+            "id": 7,
+            "img": "https://imgs.search.brave.com/mDxbxTFzeS7StZgvyJxBTZS90q957IWAWn-dXHJhLAA/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMud2lraWEubm9j/b29raWUubmV0L21l/dGFsbGljYS9pbWFn/ZXMvOC84Zi8lRTIl/ODAlQTZhbmRfSnVz/dGljZV9mb3JfQWxs/XyhhbGJ1bSkuanBn/L3JldmlzaW9uL2xh/dGVzdC9zY2FsZS10/by13aWR0aC1kb3du/LzI1MD9jYj0yMDEy/MDYwNTA3MjEyOQ",
+            "title": "One",
+            "artist": "Metallica",
+            "category": "rock"
+        },
+        {
+            "id": 8,
+            "img": "https://imgs.search.brave.com/mDxbxTFzeS7StZgvyJxBTZS90q957IWAWn-dXHJhLAA/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMud2lraWEubm9j/b29raWUubmV0L21l/dGFsbGljYS9pbWFn/ZXMvOC84Zi8lRTIl/ODAlQTZhbmRfSnVz/dGljZV9mb3JfQWxs/XyhhbGJ1bSkuanBn/L3JldmlzaW9uL2xh/dGVzdC9zY2FsZS10/by13aWR0aC1kb3du/LzI1MD9jYj0yMDEy/MDYwNTA3MjEyOQ",
+            "title": "One",
+            "artist": "Metallica",
+            "category": "rock"
+        }
+    ]
+}

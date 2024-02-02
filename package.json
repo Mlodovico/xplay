@@ -3,12 +3,15 @@
   "scripts": {
     "build": "next build",
     "dev": "next dev",
-    "start": "next start"
+    "start": "next start",
+    "server": "json-server --watch ./server/db.json --port 5000"
   },
   "dependencies": {
+    "axios": "^1.6.7",
     "next": "latest",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "styled-components": "^6.1.8"
   },
   "engines": {
     "node": ">=18"
