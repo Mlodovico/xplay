@@ -20,9 +20,7 @@ export default function Home() {
 
     return (
         <Container>
-            <Header>
-                <Image src={Logo} />
-            </Header>
+
             <Title>Boa tarde, Gabriel!</Title>
 
             <SelectorBar />
