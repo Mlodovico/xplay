@@ -32,3 +32,12 @@ export const MusicContainer = styled.div`
     grid-template-columns: repeat(2, 1fr);
     gap: 0px 5px;
 `;
+
+export const ScrollViewContainer = styled.div`
+  width: 100%;
+  height: 200px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  display: flex;
+`;

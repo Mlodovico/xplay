@@ -1,22 +1,22 @@
 import styled from "styled-components";
 
-export const CardMusic = styled.div`
+export const Card = styled.div`
   display: flex;
-  width: 100%;
-  height: 50px;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  height: 100%;
   background-color: #001b374a;
-  border-radius: 8px;
   margin: 5px;
 `;
 
 export const ImageContainer = styled.div`
-  width: 30%;
-  height: 100%;
+  width: 100%;
+  height: 80%;
 `;
 
 export const DescriptionContainer = styled.div`
-  width: 70%;
-  height: 100%;
+  height: 10%;
   display: flex;
   flex-direction: column;
   justify-content: center;

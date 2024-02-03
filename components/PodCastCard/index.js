@@ -1,5 +1,5 @@
 import {
-  CardMusic,
+  Card,
   MusicTitle,
   MusicSubtitle,
   ImageContainer,
@@ -8,16 +8,15 @@ import {
 
 import Image from "next/image";
 
-export const Card = ({ img, title, artist, category, index }) => {
+export const PodCastCard = ({ img, title, artist, category, index }) => {
   return (
-    <CardMusic>
+    <Card>
       <ImageContainer>
         {/* <Image src={img} alt={title} /> */}
       </ImageContainer>
       <DescriptionContainer>
         <MusicTitle>{title}</MusicTitle>
-        <MusicSubtitle>{artist}</MusicSubtitle>
       </DescriptionContainer>
-    </CardMusic>
+    </Card>
   );
 };

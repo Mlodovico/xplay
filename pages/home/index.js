@@ -1,25 +1,41 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 
-import { Container, Legend, MusicContainer } from "./styles";
+import { Container, Legend, MusicContainer, ScrollViewContainer } from "./styles";
 
 import { SelectorBar } from "../../components/SelectorBar";
+import { PodCastCard } from "../../components/PodCastCard";
 import { Card } from "../../components/Card";
 
 export default function Home() {
   const [typeSelector, setTypeSelector] = useState("music");
   const [musics, setMusics] = useState([]);
+  const [podcasts, setPodcasts] = useState([]);
 
   useEffect(() => {
     getMusics();
+    getPodcasts()
   }, []);
 
   const getMusics = async () => {
     try {
-      const response = await axios.get("api/get");
+      const response = await axios.get("api/getMusics");
 
       if (response) {
         setMusics(response.data);
+      }
+    } catch (err) {
+      console.log(err);
+    }
+  };
+
+
+  const getPodcasts = async () => {
+    try {
+      const response = await axios.get("api/getPodcasts");
+
+      if (response) {
+        setPodcasts(response.data);
       }
     } catch (err) {
       console.log(err);
@@ -48,7 +64,17 @@ export default function Home() {
         )}
       </MusicContainer>
 
-      <Legend>Feitos para voce</Legend>
+      <Legend>Feitos para voce!</Legend>
+
+          <ScrollViewContainer>
+            {podcasts.length !== 0 ? (
+              podcasts.map((podcast, index) => (
+                <PodCastCard title={podcast.title} img={podcast.img} />
+              ))
+            ) : (
+              <Legend>Carregando...</Legend>
+            )}
+          </ScrollViewContainer>
     </Container>
   );
 }
