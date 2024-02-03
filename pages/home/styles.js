@@ -24,6 +24,7 @@ export const ImageLogo = styled.img`
 
 export const Legend = styled.p`
     font-size: 21px;
+    margin-bottom: 20px;
 `;
 
 export const MusicContainer = styled.div`
@@ -31,6 +32,7 @@ export const MusicContainer = styled.div`
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 0px 5px;
+    margin-top: 30px;
 `;
 
 export const ScrollViewContainer = styled.div`
