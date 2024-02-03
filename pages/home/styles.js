@@ -22,6 +22,10 @@ export const ImageLogo = styled.img`
   height: auto;
 `
 
-export const Title = styled.p`
+export const Legend = styled.p`
     font-size: 21px;
+`;
+
+export const MusicContainer = styled.div`
+    
 `;

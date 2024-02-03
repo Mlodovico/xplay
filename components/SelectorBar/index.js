@@ -1,7 +1,21 @@
 
+import { Container, Button } from './styles'
 
 export const SelectorBar = () => {
     return (
-        <h1>SelectorBar</h1>
+        <Container>
+            <Button>
+                Musicas
+            </Button>
+            <Button>
+                Albuns
+            </Button>
+            <Button>
+                Podcasts
+            </Button>
+            <Button>
+                Artistas
+            </Button>
+        </Container>
     )
 }

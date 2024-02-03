@@ -1,5 +1,5 @@
-import React, { useEffect } from "react";
-import {Container, Header, Title} from "./styles"
+import React, { useEffect, useState } from "react";
+import {Container, Legend, MusicContainer} from "./styles"
 import axios from 'axios';
 import Image from 'next/image'
 
@@ -8,6 +8,8 @@ import { SelectorBar } from "../../components/SelectorBar";
 
 
 export default function Home() {
+    const [typeSelector, setTypeSelector] = useState('music')
+
     useEffect(() => {
         getMusics
     }, [])
@@ -21,9 +23,15 @@ export default function Home() {
     return (
         <Container>
 
-            <Title>Boa tarde, Gabriel!</Title>
+            <Legend>Boa tarde, Gabriel!</Legend>
 
             <SelectorBar />
+
+            <MusicContainer>
+
+            </MusicContainer>
+
+            <Legend>Feitos para voce</Legend>
         </Container>
     )
 }
