@@ -1,37 +1,54 @@
 import React, { useEffect, useState } from "react";
-import {Container, Legend, MusicContainer} from "./styles"
-import axios from 'axios';
-import Image from 'next/image'
+import axios from "axios";
 
-import Logo from "../../public/xplay_logo.svg"
+import { Container, Legend, MusicContainer } from "./styles";
+
 import { SelectorBar } from "../../components/SelectorBar";
-
+import { Card } from "../../components/Card";
 
 export default function Home() {
-    const [typeSelector, setTypeSelector] = useState('music')
+  const [typeSelector, setTypeSelector] = useState("music");
+  const [musics, setMusics] = useState([]);
 
-    useEffect(() => {
-        getMusics
-    }, [])
+  useEffect(() => {
+    getMusics();
+  }, []);
 
-    const getMusics = async () => {
-        const response = await axios.get('api/get')
+  const getMusics = async () => {
+    try {
+      const response = await axios.get("api/get");
 
-        console.log(response)
+      if (response) {
+        setMusics(response.data);
+      }
+    } catch (err) {
+      console.log(err);
     }
+  };
 
-    return (
-        <Container>
+  return (
+    <Container>
+      <Legend>Boa tarde, Gabriel!</Legend>
 
-            <Legend>Boa tarde, Gabriel!</Legend>
+      <SelectorBar />
 
-            <SelectorBar />
+      <MusicContainer>
+        {musics.length !== 0 ? (
+          musics.map((music, index) => (
+            <Card
+              key={index}
+              img={music.img}
+              title={music.title}
+              artist={music.artist}
+              category={music.category}
+            />
+          ))
+        ) : (
+          <Legend>Carregando...</Legend>
+        )}
+      </MusicContainer>
 
-            <MusicContainer>
-
-            </MusicContainer>
-
-            <Legend>Feitos para voce</Legend>
-        </Container>
-    )
+      <Legend>Feitos para voce</Legend>
+    </Container>
+  );
 }
