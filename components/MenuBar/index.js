@@ -1,6 +1,12 @@
 
 import { Container, Button } from './styles'
+import Image from 'next/image'
+
 import Link from 'next/link';
+import Home from '../../public/home_icon.svg'
+import Config from '../../public/config_icon.svg'
+import Search from '../../public/search_icon.svg'
+import Library from '../../public/library_icon.svg'
 
 
 export const MenuBar = () => {
@@ -8,22 +14,23 @@ export const MenuBar = () => {
         <Container>
             <Button>
                 <Link href='/home'>
-                    Home
+                <Image src={Home} />
+
                 </Link>
             </Button>
             <Button>
                 <Link href='/search'>
-                    Search
+                    <Image src={Search} />
                 </Link>
             </Button>
             <Button>
                 <Link href='/library'>
-                    Library
+                    <Image src={Library} />
                 </Link>
             </Button>
             <Button>
                 <Link href='/config'>
-                    Config
+                    <Image src={Config} />
                 </Link>
             </Button>
         </Container>

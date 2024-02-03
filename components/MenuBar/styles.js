@@ -9,12 +9,13 @@ export const Container = styled.div`
     bottom: 0;
     background-color: #333;
     justify-content: space-around;
+    background-color: #013163;
 
-@media (max-width: 400px){
+@media (max-width: 400px) {
     position: fixed;
     width: 100%;
 }
 `
 export const Button = styled.button`
-    text-decoration: none;
+    all: initial;
 `;

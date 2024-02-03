@@ -5,7 +5,7 @@ import Logo from "../public/xplay_logo.svg";
 
 function MyApp({ Component, pageProps }) {
   return (
-    <div className="container">
+    <div className="container" >
       <div className="container-card">
         <div className="page-container">
           <div className="header">
