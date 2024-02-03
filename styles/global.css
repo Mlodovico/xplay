@@ -43,6 +43,7 @@ img {
 
 .container-card {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   width: 80vh;
@@ -59,7 +60,6 @@ img {
     height: 100%;
     border: none;
     border-radius: 0px;
-    padding: 10px;
   }
 }
 
@@ -69,6 +69,10 @@ img {
   align-items: center;
   width: 100%;
   height: 100%;
+
+  @media (max-width: 400px) {
+    padding: 10px;
+  }
 }
 
 .header {
