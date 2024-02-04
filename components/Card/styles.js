@@ -12,6 +12,7 @@ export const CardMusic = styled.div`
 export const ImageContainer = styled.div`
   width: 30%;
   height: 100%;
+  margin-right: 5px;
 `;
 
 export const DescriptionContainer = styled.div`
@@ -30,4 +31,11 @@ export const MusicSubtitle = styled.p`
 export const MusicTitle = styled.p`
   font-size: 14px;
   margin: 0;
+`;
+
+export const AlbumImage = styled.img`
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
 `;

@@ -10,49 +10,50 @@
         {
             "id": 2,
             "img": "https://1000logos.net/wp-content/uploads/2017/02/Color-Guns-N%E2%80%99-Roses-Logo-500x451.jpg",
+            "title": "Jungle",
             "artist": "Guns and Roses",
             "category": "rock"
         },
         {
             "id": 3,
-            "img": "https://cdn.mos.cms.futurecdn.net/9kTfThnRzFaBSxmemoaoN6-200-100.jpg",
-            "title": "One",
-            "artist": "Metallica",
-            "category": "rock"
+            "img": "https://lastfm.freetls.fastly.net/i/u/300x300/15ef1c034e1f6a71d0d69d3b6f5c534f.jpg",
+            "title": "Always remember us this way",
+            "artist": "Lady Gaga",
+            "category": "pop"
         },
         {
             "id": 4,
-            "img": "https://cdn.mos.cms.futurecdn.net/9kTfThnRzFaBSxmemoaoN6-200-100.jpg",
-            "title": "One",
-            "artist": "Metallica",
-            "category": "rock"
+            "img": "https://snworksceo.imgix.net/njs/1754f9ec-2e97-4b27-a9ef-f0d86f1a57d0.sized-1000x1000.png?w=1000",
+            "title": "Superpowers",
+            "artist": "Daniel Caeser",
+            "category": "pop"
         },
         {
             "id": 5,
-            "img": "https://cdn.mos.cms.futurecdn.net/9kTfThnRzFaBSxmemoaoN6-200-100.jpg",
-            "title": "One",
-            "artist": "Metallica",
+            "img": "https://i.pinimg.com/originals/2a/07/da/2a07dae97d83649d047ea154854aa742.jpg",
+            "title": "I'm still standing",
+            "artist": "Elton John",
             "category": "rock"
         },
         {
             "id": 6,
-            "img": "https://cdn.mos.cms.futurecdn.net/9kTfThnRzFaBSxmemoaoN6-200-100.jpg",
-            "title": "One",
-            "artist": "Metallica",
-            "category": "rock"
+            "img": "https://ew.com/thmb/yqY4BG9ZlLiFruuvw0BLsew3QjU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/drake-fae57f3eea8e4dab94467dd7f034f653.jpg",
+            "title": "Tried Our Best",
+            "artist": "Drake",
+            "category": "rap"
         },
         {
             "id": 7,
-            "img": "https://cdn.mos.cms.futurecdn.net/9kTfThnRzFaBSxmemoaoN6-200-100.jpg",
-            "title": "One",
-            "artist": "Metallica",
+            "img": "https://images.genius.com/b4d6064ca75930ad1fefe50905a4276b.999x999x1.png",
+            "title": "Everybody Wants to Rule the World",
+            "artist": "Tear for fears",
             "category": "rock"
         },
         {
             "id": 8,
-            "img": "https://cdn.mos.cms.futurecdn.net/9kTfThnRzFaBSxmemoaoN6-200-100.jpg",
-            "title": "One",
-            "artist": "Metallica",
+            "img": "https://e.snmc.io/i/600/s/5ccdbce7a2d07f510ddbdabbedc0cfda/1211421/the-police-every-breath-you-take-the-singles-Cover-Art.jpg",
+            "title": "Every Breath You Take",
+            "artist": "The police",
             "category": "rock"
         }
     ],

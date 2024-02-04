@@ -4,6 +4,7 @@ import {
   MusicSubtitle,
   ImageContainer,
   DescriptionContainer,
+  PodCastImage
 } from "./styles";
 
 import Image from "next/image";
@@ -12,7 +13,7 @@ export const PodCastCard = ({ img, title, artist, category, index }) => {
   return (
     <Card>
       <ImageContainer>
-        {/* <Image src={img} alt={title} /> */}
+        <PodCastImage src={img} alt={title} />
       </ImageContainer>
       <DescriptionContainer>
         <MusicTitle>{title}</MusicTitle>

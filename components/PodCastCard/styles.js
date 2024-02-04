@@ -1,24 +1,20 @@
 import styled from "styled-components";
 
 export const Card = styled.div`
+  width: 142px;
+  height: 200px; /* Defina uma altura fixa para a div Card */
+  margin: 5px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  width: 200px;
-  height: 100%;
-  margin: 5px;
 `;
 
 export const ImageContainer = styled.div`
-  width: 100%;
-  height: 80%;
+flex: 1
 `;
 
 export const DescriptionContainer = styled.div`
-  height: 10%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  height: 40px; /* Defina uma altura fixa para a div DescriptionContainer */
+
 `;
 
 export const MusicSubtitle = styled.p`
@@ -29,4 +25,9 @@ export const MusicSubtitle = styled.p`
 export const MusicTitle = styled.p`
   font-size: 14px;
   margin: 0;
+`;
+
+export const PodCastImage = styled.img`
+  width: 100%;
+  height: 90%;
 `;
