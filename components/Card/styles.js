@@ -4,6 +4,7 @@ export const CardMusic = styled.div`
   display: flex;
   align-items: start;
   width: 100%;
+  max-width: 300px;
   height: 50px;
   background-color: #001b374a;
   border-radius: 8px;

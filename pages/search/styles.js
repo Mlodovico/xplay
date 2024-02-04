@@ -35,4 +35,6 @@ export const Scrollview = styled.div`
   display: flex;
   flex-direction: column;
   width: 90%;
+  align-items: center;
+  justify-content: center;
 `;

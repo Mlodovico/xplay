@@ -1,20 +1,24 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 
-import { Container, Legend, MusicContainer, ScrollViewContainer } from "./styles";
+import {
+  Container,
+  Legend,
+  MusicContainer,
+  ScrollViewContainer,
+} from "./styles";
 
 import { SelectorBar } from "../../components/SelectorBar";
 import { PodCastCard } from "../../components/PodCastCard";
 import { Card } from "../../components/Card";
 
 export default function Home() {
-  const [typeSelector, setTypeSelector] = useState("music");
   const [musics, setMusics] = useState([]);
   const [podcasts, setPodcasts] = useState([]);
 
   useEffect(() => {
     getMusics();
-    getPodcasts()
+    getPodcasts();
   }, []);
 
   const getMusics = async () => {
@@ -28,7 +32,6 @@ export default function Home() {
       console.log(err);
     }
   };
-
 
   const getPodcasts = async () => {
     try {
@@ -66,15 +69,15 @@ export default function Home() {
 
       <Legend>Feitos para voce!</Legend>
 
-          <ScrollViewContainer>
-            {podcasts.length !== 0 ? (
-              podcasts.map((podcast, index) => (
-                <PodCastCard title={podcast.title} img={podcast.img} />
-              ))
-            ) : (
-              <Legend>Carregando...</Legend>
-            )}
-          </ScrollViewContainer>
+      <ScrollViewContainer>
+        {podcasts.length !== 0 ? (
+          podcasts.map((podcast, index) => (
+            <PodCastCard title={podcast.title} img={podcast.img} />
+          ))
+        ) : (
+          <Legend>Carregando...</Legend>
+        )}
+      </ScrollViewContainer>
     </Container>
   );
 }

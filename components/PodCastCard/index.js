@@ -1,10 +1,11 @@
+import React from "react";
+
 import {
   Card,
   MusicTitle,
-  MusicSubtitle,
   ImageContainer,
   DescriptionContainer,
-  PodCastImage
+  PodCastImage,
 } from "./styles";
 
 import Image from "next/image";

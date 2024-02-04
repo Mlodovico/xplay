@@ -1,5 +1,5 @@
-import { useState } from "react";
-import {Switch} from "@nextui-org/switch";
+import React, { useState } from "react";
+import { Switch } from "@nextui-org/switch";
 
 import { Container, Title, ConfigContainer, Card } from "./styles";
 
@@ -13,7 +13,7 @@ export default function Config() {
       <ConfigContainer>
         <Card>
           <span>Auto play</span>
-          <Switch defaultSelected size="sm" />
+          <Switch defaultSelected size="sm" alt=" Auto play" />
         </Card>
         <Card>
           <span>Mix Audio Types</span>
@@ -21,7 +21,7 @@ export default function Config() {
         </Card>
         <Card>
           <span>Enable Week Discovery</span>
-          <Switch defaultSelected size="sm"/>
+          <Switch defaultSelected size="sm" />
         </Card>
         <Card>
           <span>Enable Auto DJ</span>

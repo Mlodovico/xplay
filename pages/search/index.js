@@ -1,8 +1,14 @@
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import axios from "axios";
 
-import { Container, SearchInput, SearchInputContainer, Button, Scrollview } from "./styles";
+import {
+  Container,
+  SearchInput,
+  SearchInputContainer,
+  Button,
+  Scrollview,
+} from "./styles";
 
 import SearchInpuIcon from "../../public/search_input_icon.svg";
 import CloseIcon from "../../public/close_icon.svg";
@@ -47,7 +53,12 @@ export default function Search() {
       </SearchInputContainer>
       <Scrollview>
         {musics.map((music) => (
-            <Card key={music.id} img={music.img} title={music.title} artist={music.artist} />
+          <Card
+            key={music.id}
+            img={music.img}
+            title={music.title}
+            artist={music.artist}
+          />
         ))}
       </Scrollview>
     </Container>
