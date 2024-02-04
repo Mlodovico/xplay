@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const CardMusic = styled.div`
   display: flex;
+  align-items: start;
   width: 100%;
   height: 50px;
   background-color: #001b374a;
@@ -16,7 +17,7 @@ export const ImageContainer = styled.div`
 `;
 
 export const DescriptionContainer = styled.div`
-  width: 70%;
+  width: 100%;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -34,8 +35,8 @@ export const MusicTitle = styled.p`
 `;
 
 export const AlbumImage = styled.img`
-  width: 100%;
-  height: 100%;
+  width: 48px;
+  height: 48px;
   border-top-left-radius: 8px;
   border-bottom-left-radius: 8px;
 `;
