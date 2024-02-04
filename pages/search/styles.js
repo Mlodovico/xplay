@@ -31,3 +31,8 @@ export const Button = styled.button`
   background-color: transparent;
   border: none;
 `
+export const Scrollview = styled.div`
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+`;
