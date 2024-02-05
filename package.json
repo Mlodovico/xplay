@@ -10,6 +10,7 @@
     "@nextui-org/react": "^2.2.9",
     "@nextui-org/switch": "^2.0.25",
     "axios": "^1.6.7",
+    "framer-motion": "^11.0.3",
     "next": "latest",
     "react": "18.2.0",
     "react-dom": "18.2.0",
@@ -17,5 +18,8 @@
   },
   "engines": {
     "node": ">=18"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
   }
 }
