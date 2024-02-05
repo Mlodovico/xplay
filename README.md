@@ -1,1 +1,12 @@
-This is a starter template for [Learn Next.js](https://nextjs.org/learn).
+# X Play Project
+
+To run the aplication
+
+Start de json server
+### npm run server
+
+Generate .next file
+### npm run build
+
+Run the project
+### npm run dev
