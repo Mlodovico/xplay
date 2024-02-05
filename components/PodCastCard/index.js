@@ -10,7 +10,7 @@ import {
 
 import Image from "next/image";
 
-export const PodCastCard = ({ img, title, artist, category, index }) => {
+export const PodCastCard = ({ img, title }) => {
   return (
     <Card>
       <ImageContainer>

@@ -60,32 +60,32 @@
     "podcast" : [
         {
             "id": 0,
-            "img": "https://cdn.mos.cms.futurecdn.net/9kTfThnRzFaBSxmemoaoN6-200-100.jpg",
+            "img": "https://images.unsplash.com/photo-1704094516867-d8ff1d9b71cc?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8OHx8fGVufDB8fHx8fA==",
             "title": "Sextou"
         },
         {
             "id": 1,
-            "img": "https://cdn.mos.cms.futurecdn.net/9kTfThnRzFaBSxmemoaoN6-200-100.jpg",
+            "img": "https://f.i.uol.com.br/fotografia/2023/08/04/169117705664cd50604da5a_1691177056_1x1_md.jpg",
             "title": "Podpah"
         },
         {
             "id": 2,
-            "img": "https://cdn.mos.cms.futurecdn.net/9kTfThnRzFaBSxmemoaoN6-200-100.jpg",
+            "img": "https://images.unsplash.com/photo-1704072384017-788b1ccbaae5?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTR8fHxlbnwwfHx8fHw=",
             "title": "Segundou"
         },
         {
             "id": 3,
-            "img": "https://cdn.mos.cms.futurecdn.net/9kTfThnRzFaBSxmemoaoN6-200-100.jpg",
+            "img": "https://wallpapers.com/images/hd/modern-forest-art-lrcnebci4cw5h8ql.jpg",
             "title": "Quartou"
         },
         {
             "id": 4,
-            "img": "https://cdn.mos.cms.futurecdn.net/9kTfThnRzFaBSxmemoaoN6-200-100.jpg",
+            "img": "https://wallpapercave.com/wp/wp2817936.png",
             "title": "Tudo na paz"
         },
         {
             "id": 5,
-            "img": "https://cdn.mos.cms.futurecdn.net/9kTfThnRzFaBSxmemoaoN6-200-100.jpg",
+            "img": "https://wallpapers.com/images/featured/beach-eoxvk1itsaibfbo1.jpg",
             "title": "Maresias"
         }
     ]

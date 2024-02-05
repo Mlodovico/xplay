@@ -13,27 +13,27 @@ export default function Config() {
       <ConfigContainer>
         <Card>
           <span>Auto play</span>
-          <Switch defaultSelected size="sm" alt=" Auto play" />
+          <Switch checked={false} size="sm" alt=" Auto play" />
         </Card>
         <Card>
           <span>Mix Audio Types</span>
-          <Switch defaultSelected size="sm" />
+          <Switch checked={false} size="sm" />
         </Card>
         <Card>
           <span>Enable Week Discovery</span>
-          <Switch defaultSelected size="sm" />
+          <Switch checked={false} size="sm" />
         </Card>
         <Card>
           <span>Enable Auto DJ</span>
-          <Switch defaultSelected size="sm" />
+          <Switch checked={false} size="sm" />
         </Card>
         <Card>
           <span>Enable 3D Audio</span>
-          <Switch defaultSelected size="sm" />
+          <Switch checked={false} size="sm" />
         </Card>
         <Card>
           <span>Enable Auto Sync</span>
-          <Switch defaultSelected size="sm" />
+          <Switch checked={false} size="sm" />
         </Card>
       </ConfigContainer>
     </Container>

@@ -38,7 +38,7 @@ export const ConfigContainer = styled.div`
 
 export const Card = styled.div`
   display: flex;
+  height: 25px;
   align-items: center;
-  justify-content: space-between;
   margin: 10px 0px;
 `;

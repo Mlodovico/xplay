@@ -2,19 +2,19 @@ import styled from "styled-components";
 
 export const Card = styled.div`
   width: 142px;
-  height: 200px; /* Defina uma altura fixa para a div Card */
+  min-width: 142px;
+  height: 200px;
   margin: 5px;
   display: flex;
   flex-direction: column;
 `;
 
 export const ImageContainer = styled.div`
-flex: 1
+  flex: 1;
 `;
 
 export const DescriptionContainer = styled.div`
-  height: 40px; /* Defina uma altura fixa para a div DescriptionContainer */
-
+  height: 40px;
 `;
 
 export const MusicSubtitle = styled.p`

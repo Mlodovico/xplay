@@ -20,7 +20,7 @@ export const Header = styled.div`
 export const ImageLogo = styled.img`
   max-width: 100%;
   height: auto;
-`
+`;
 
 export const Legend = styled.p`
     font-size: 21px;
@@ -38,8 +38,8 @@ export const MusicContainer = styled.div`
 export const ScrollViewContainer = styled.div`
   width: 100%;
   height: 200px;
+  overflow: hidden;
   overflow-x: scroll;
-  overflow-y: hidden;
   white-space: nowrap;
   display: flex;
 `;
